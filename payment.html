@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content>
+        <meta name="description" content>
+        <meta name="keywords" content>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utilities.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body style="background-color: rgb(210, 230, 220);">
+        <!-- <body style="background-color: rgb(24, 24, 50); color: white;"> -->
+        <div class="::-webkit-scrollbar">
+            <section>
+                <nav class="navbar">
+                    <div class="logo">
+                        <img id="logo1" src="./assets/svg/pay-logo.svg"
+                            alt="website-logo">
+                        <ul class="imp-options">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href>Account</a></li>
+                            <li><a href>Features</a></li>
+                        </ul>
+                    </div>
+                    <ul class="nav-container">
+                        <li><a href>About Us</a></li>
+                        <li id="privacy-policy-heading"><a href>Privacy
+                                Policy</a></li>
+                    </ul>
+                </nav>
+                <section class="main">
+                    <aside class="left">
+                        <ul class="left-container">
+                            <li><a href="quick_transfer.html">Quick
+                                    Transfer</a></li>
+                            <li><a href="add_beneficiary.html">Add
+                                    Beneficiary</a></li>
+                            <li><a href="add_bank_account.html">Add Bank
+                                    Account</a></li>
+                            <li><a href="history.html">History</a></li>
+                            <li><a href="insurance.html">Insurance</a></li>
+                            <li><a href="recharge_and_pay.html">Recharge and Pay
+                                    Bills</a></li>
+                            <li><a href="loan_investment.html">Loan &
+                                    Investment</a></li>
+                            <li><a href="travel.html">Travel</a></li>
+                            <li><a href="purchases.html">Purchases</a></li>
+                        </ul>
+                    </aside>
+                    <section class="right2">
+                        <div class="quick-transfer-heading">
+                            <h5>Quick Transfer (Without Adding Beneficiary)</h5>
+                            <p>Select the account from which you want to
+                                transfer funds</p>
+                        </div>
+                        <div class="line2"></div>
+                        <div class="acc-container">
+                            <input type="radio">
+                            <div class="accounts-list">
+                                <div class="account-heading">Account
+                                    Number</div>
+                                <div class="account-heading">Account Type</div>
+                                <div class="account-heading">Branch</div>
+                                <div class="account-heading">Balance</div>
+                                <div>253620020105</div>
+                                <div>Savings Account</div>
+                                <div>AB Road, Shajapur</div>
+                                <div>23,100.20</div>
+                            </div>
+                        </div>
+                        <div class="line2"></div>
+                        <section class="selected-account">
+                            <div class="selected-accounts">Selected Account Number</div>
+                            <div>253620020105</div>
+                            <div class="selected-accounts">Beneficiary Name</div>
+                            <div><input type="text" name="add_beneficiary_name" id="add_beneficiary_name"></div>
+                            <div class="selected-accounts">Beneficiary Account Number</div>
+                            <div><input type="number" name="add_beneficiary_num" id="add_beneficiary_num"></div>
+                            <div class="selected-accounts">Re-Enter Beneficiary Account Number</div>
+                            <div><input type="number" name="reenter_beneficiary_num" id="reenter_beneficiary_num"></div>
+                            <div></div>
+                            <div></div>
+                        </section>
+                        <div><p style="text-transform: uppercase; font-size: larger;">Select Payment Option</p></div>
+                        <section class="payment-option">
+                            <div class="payment-options">Payment Option</div>
+                            <div class="two-radios">
+                                <div><input type="radio" name="" id="">&nbsp;&nbsp;Within IndusPay</div>
+                                <div><input type="radio" name="" id="">&nbsp;&nbsp;Other Bank Transfer</div>
+                            </div>
+                            <div class="payment-options">Amount</div>
+                            <div><input type="number" id="amount"></div>
+                            <div class="payment-options">Purpose</div>
+                            <div><select name="select" id="purpose"> 
+                                <option value="Select Purpose">Select Purpose</option>
+                            </select></div>
+                        </section>
+                        <p class="note">Please Note that the Beneficiary Account Number will ONLY be used for Electronic Fund Transfer (please ensure correctness).</p>
+                        <p class="note">The Beneficiary Name provided will not be considered for Electronic Fund Transfer as per the RBI Guidelines.</p>
+                        <div class="terms">
+                            <div><input type="checkbox"></div>
+                            <div>I accept the <a href="#" id="terms1">Terms and Conditions</a></div>
+                        </div>
+                        <div class="submit-button">
+                            <div><button class="submit-buttons" type="submit">Submit</button></div>
+                            <div><button class="submit-buttons" type="reset">Reset</button></div>
+                        </div>
+                    </section>
+                </section>
+
+            </section>
+
+            <div class="cards-container">
+                <div class="more-features"><p>More <br>Features</p></div>
+                <div class="cards2">
+                    <div class="card-2"><img
+                            src="./assets/card/Screenshot (1515).png"
+                            alt>
+                        <h5>Payment Gateway</h5><p>Offer a seamless
+                            payment experience on the
+                            website</p></div>
+                    <div class="card-2"><img
+                            src="./assets/card/Screenshot (1515)-new.png"
+                            alt><h5>Payment Links</h5><p>Create and
+                            share links over mail, text and social
+                            media</p></div>
+                    <div class="card-2"><img
+                            src="/assets/card/Screenshot (1516).png"
+                            alt><h5>Tax Payments</h5><p>Online tax
+                            payment in a single click</p></div>
+                </div>
+            </div>
+            <footer class="footer">
+                <aside><p class="footer-about">
+                        IndusPay is the only payments solution in India that
+                        allows businesses to accept, process and disburse
+                        payments with its product suite. It gives you access to
+                        all payment modes including credit card, debit card,
+                        netbanking, UPI and popular wallets including JioMoney,
+                        Mobikwik, Airtel Money, FreeCharge, Ola Money and
+                        PayZapp.
+
+                        IndusPay supercharges your business banking experience,
+                        bringing effectiveness, efficiency, and excellence to
+                        all financial processes. With IndusPay, businesses can
+                        get access to fully-functional current accounts,
+                        supercharge their payouts and automate payroll
+                        compliance.
+
+                        Manage your marketplace, automate bank transfers,
+                        collect recurring payments, share invoices with
+                        customers and avail working capital loans - all from a
+                        single platform. Fast forward your business with
+                        IndusPay.
+                    </p></aside>
+                <div class="footer-grid">
+                    <div class="grid-1"><h5>Banking Plus</h5>
+                        <p>IndusPayX</p>
+                        <p>Source to Pay</p>
+                        <p>Current Accounts</p>
+                        <p>Payout</p>
+                        <p>Payout Links</p>
+                        <p>Corporate Credit Card</p></div>
+                    <div class="grid-2"><h5>Accept Payments</h5>
+                        <p>Payment Gateway</p>
+                        <p>Payment Pages</p>
+                        <p>Payment Links</p>
+                        <p>IndusPay POS</p>
+                        <p>QR Codes</p>
+                        <p>Subscription</p>
+                        <p>Smart Collect</p>
+                        <p>Optimizer</p></div>
+
+                    <div class="grid-3"><h5>About Company</h5>
+                        <p>About Us</p>
+                        <p>Careers</p>
+                        <p>Terms of Use</p>
+                        <p>Privacy Policy</p>
+                        <p>Grievance Redressal</p>
+                        <p>Responsible Closure</p>
+                        <p>Partners</p>
+                        <p>White Papers</p>
+                        <p>Corporate Information</p></div>
+                </div>
+                <aside class="footer-links">
+                    <img src="./assets/svg/insta.svg" alt>
+                    <img src="./assets/svg/linkedin.svg" alt>
+                    <img src="./assets/svg/x.svg" alt>
+                    <img src="./assets/svg/youtube.svg" alt>
+                </aside>
+                <div class="footer-content"><p>© 2024, All rights
+                        reserved</p></div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

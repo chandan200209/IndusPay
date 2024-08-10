@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+}
+body{
+    height: 200vh;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+}
+.imp-options{
+    display: flex;
+    gap: 40px;
+    /* display: inline; */
+}
+.nav-container{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    /* text-decoration: none; */
+    align-items: center;
+}
+.nav-container li{
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.single-line{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+#login{
+    border: 3px solid brown;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+#register{
+    border: 3px solid brown;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.payment-image{
+    width: 49vw;
+    height: 500px;
+    border: 3px solid purple;
+    float: left;
+}
+.right{
+    width: 49vw;
+    height: 500px;
+    border: 3px solid purple;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.right h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
